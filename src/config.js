@@ -6,7 +6,8 @@ export const defaultConfig = {
         'https://chinese-fonts-cdn.deno.dev/packages/yozai/dist/Yozai-Regular/result.css',
         'https://chinese-fonts-cdn.deno.dev/packages/hcqyt/dist/ChillRoundFRegular/result.css',
         'https://chinese-fonts-cdn.deno.dev/packages/dymh/dist/DouyinSansBold/result.css',
-        'https://chinese-fonts-cdn.deno.dev/packages/mkzyt/dist/猫啃珠圆体/result.css'
+        'https://chinese-fonts-cdn.deno.dev/packages/mkzyt/dist/猫啃珠圆体/result.css',
+        'https://static.zeoseven.com/zsft/405/main/result.css'
     ],
     fontOptions: [
         { value: import.meta.env.VITE_APP_FONT_FAMILY, label: '默认全局' },
@@ -14,6 +15,7 @@ export const defaultConfig = {
         { value: 'yozai', label: '悠哉字体' },
         { value: '寒蝉全圆体', label: '寒蝉全圆体' },
         { value: 'Douyin Sans', label: '抖音美好体' },
-        { value: 'MaokenZhuyuanTi', label: '猫啃珠圆体' }
+        { value: 'MaokenZhuyuanTi', label: '猫啃珠圆体' },
+        { value: 'zihunbiantaoti', label: '字魂扁桃体' }
     ]
 };
